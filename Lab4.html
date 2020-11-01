@@ -1,0 +1,212 @@
+<html>
+<head>
+    <title> Registration HTML page</title>
+    <style>
+        body{
+            margin:1px;
+            padding: 0;
+        }
+        header{
+            width:100%;
+            height:5vh;
+            background-color: rgb(107, 139, 109);
+            
+        }
+        section{
+            width:100%;
+            height:85vh;
+            padding: 10px;
+            
+        }
+        footer{
+            width:100%;
+            height:5vh;
+            padding-top: 5px;
+            background-color: rgb(161, 156, 156);
+        }
+        h2{
+            display: inline;
+            margin: 20px;
+        }
+        #leftForms{
+            width:45%;
+            height: 100%;
+            float:left;
+        }
+        #rightForms{
+            width:45%;
+            height: 100%;
+            padding-top: 0px;
+            float:right;
+        }
+        label{
+            width:50%;  
+            margin-right:15px;  
+        }
+        .labelContainer{
+            width:35%;
+            display: inline;
+            float:left;
+        }
+        .required{
+            color:red;
+        }
+        /* div{
+            margin: 1px;
+        } */
+        p{
+            text-decoration: underline;
+        }
+
+        #checkboxContainer{
+             text-align: justify;
+        }
+
+        .inputsContainer{
+            margin: 10px 0 15px 0;
+        }
+        #footer_buttons{
+            margin: auto;
+            width: 100vw;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2> Workshop Registration</h2>
+        <select  style= "border: none; background-color:rgb(107, 139, 109);";"name="actionList">
+            <option> More Actions</option>
+        </select>
+    </header>
+    <section>
+        <p>Register now while seats are available!</p>
+        <form> 
+            <div id="leftForms">
+                <div class="inputsContainer">
+                     <div class="labelContainer">
+                        FirstName
+                        <span class="required">*</span>
+                    </div>
+                     <input type="input" name="FirstName"> 
+                </div>
+
+                <div class="inputsContainer">
+                    <div class="labelContainer">LastName
+                        <span class="required">*</span>
+                    </div>
+                    <input type="input" name="LastName"> 
+               </div>
+
+               <div class="inputsContainer">
+                    <div class="labelContainer">Company/Institution
+                        <span class="required">*</span>
+                    </div>
+                    <input type="input" name="company"> 
+               </div>
+
+               <div class="inputsContainer">
+                    <div class="labelContainer"> Address
+                        <span class="required">*</span>
+                    </div>
+                    <textarea cols="20" rows="7" name="Address"></textarea> 
+               </div>
+
+               <div class="inputsContainer">
+                    <div class="labelContainer"> City </div>
+                    <input type="text" name="city"> 
+               </div>
+
+               <div class="inputsContainer">
+                  <div class="labelContainer"> State/Province/ Region</div>
+                  <select style="width:165px;" name="state">
+                      <option> -Select-</option>
+                  </select> 
+                </div>
+
+                <div class="inputsContainer">
+                    <div class="labelContainer"> Country</div>
+                    <select style="width:165px;" name="country">
+                        <option> -Select-</option>
+                    </select> 
+                </div>
+
+                <div class="inputsContainer">
+                    <div class="labelContainer">Email
+                        <span class="required">*</span>
+                    </div>
+                    <input type="email" name="email"> 
+                </div>
+
+                <div class="inputsContainer">
+                    <div class="labelContainer">Phone Number
+                        <span class="required">*</span>
+                    </div>
+                    <input type="input" name="phoneNumber"> 
+                </div>
+
+            </div>
+
+            <div id="rightForms">
+                <p> Lunch</p>
+
+                <div class="inputsContainer">
+                    <div class="labelContainer"> Meal Preference</div>
+                    <select style="width:165px;" name="meal">
+                        <option> Vegeterian</option>
+                    </select> 
+                </div>
+
+                 <p> Payment Details</p>
+
+                <div class="inputsContainer"> 
+                    <div class="labelContainer"> Payment Mode</div>
+
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="cash">  Cash <br/>
+                                <input type="checkbox" name="Cheque"> Cheque <br/>
+                                <input type="checkbox" name="DemandDraft"> Demand Draft
+                            </td>
+                        </tr>
+                    </table>
+                 <!--   <div id="checkboxContainer">
+                        <input type="checkbox" name="cash">  Cash <br/>
+                        <input type="checkbox" name="Cheque"> Cheque <br/>
+                        <input type="checkbox" name="DemandDraft"> Demand Draft
+                    </div> -->
+                </div>
+
+                <div class="inputsContainer">
+                    <div class="labelContainer"> DD/Cheque No.</div>
+                    <input type="text" name="dd"> 
+                </div>
+
+                <div class="inputsContainer">
+                    <div class="labelContainer"> Drawn on(Bank Name)</div>
+                    <input type="text" name="DrawnOn"> 
+                </div>
+
+                <div class="inputsContainer">
+                    <div class="labelContainer"> Payable At</div>
+                    <input type="text" name="payableAt"> 
+                </div>
+
+            </div>
+        
+    </section>
+    <footer>
+        <div id="footer_buttons">
+            <input style="background-color: rgb(107, 139, 109);" type="submit">
+            <input style="background-color: rgb(107, 139, 109);" type="reset" value="Reset">
+        </form>
+        </div>
+    </footer>
+        
+
+
+</body>
+</html>
