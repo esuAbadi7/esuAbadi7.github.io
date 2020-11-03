@@ -1,4 +1,4 @@
-alert("Hello, world!");
+// alert("Hello, world!");
 
 window.onload = function(){
     // document.getElementById("decor_btn").onclick = changesize;
