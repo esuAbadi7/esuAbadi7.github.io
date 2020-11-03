@@ -34,7 +34,7 @@ function changeWeight(){
         document.getElementById("textAr").style.color="green";
         document.getElementById("textAr").style.textDecoration="underline";
         // document.getElementsByTagName("body")[0].style.backgroundImage = 'images/background_image.png';
-        document.body.style.backgroundImage= "url('images/background_image.png')";
+        document.body.style.backgroundImage= "url('http://www.cs.washington.edu/education/courses/190m/CurrentQtr/labs/6/hundred-dollar-bill.jpg')";
 
     }else{
         document.getElementById("textAr").style.fontWeight="normal";
