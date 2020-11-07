@@ -17,7 +17,8 @@ window.onload = function(){
 };
 let timer = null;
 var whichone = "Blank";
-let delay = 250;
+var delay = 250;
+
 function setview(){
 
     var view = ANIMATIONS[whichone].split("=====\n");
@@ -36,7 +37,7 @@ function setview(){
                     if(i>= view.length){
                         i=0;
                     }
-                    console.log(i);
+                    
                 }, delay );
 
     }
