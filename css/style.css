@@ -14,9 +14,9 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 85% georgia, sans-serif;
+	font: 100% georgia, sans-serif;
 	line-height: 1.88889;
-	color: #B7A5DF; 
+	color: #6200EE; 
 	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
 	/* background: #fff url(https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/thumbimg_25361957thumbejpg.jpg) no-repeat bottom right; */
 	margin: 0; 
@@ -113,6 +113,28 @@ header {
 	margin-bottom: 40px;
 	}
 
+#zen-explanation{
+	width: 50%;
+	margin-left: 200px;
+	color:  #FF0622;
+}
+
+#zen-requirements{
+	width: 50%;
+	margin-left: 200px;
+}
+
+#zen-participation{
+	width: 50%;
+	margin-right: 200px;
+}
+#zen-benefits{
+	background-color: white;
+	color:  #FF0622;
+	/* #6200EE */
+	width: 50%;
+	margin-left: 400px
+}
 footer { 
 	text-align: center; 
 	}
@@ -133,7 +155,9 @@ footer a:link, footer a:visited {
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 130px; 
-	color: whitesmoke;
+	color: rgb(85, 72, 72);
+	border-radius: 10px;
+	box-shadow: whitesmoke;
 	}
 .sidebar h3.select { 
 	background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; 
