@@ -3,27 +3,24 @@ $(document).ready(function(){
    $("#start").mouseover(normal);
     $("#end").mouseover(win);
     $("#start").click(normal);
-  //  $("#start").click('mouseout',otherbody);
-
-
-    
-
+//    $("#start").click('mouseout',otherbody);
 
 });
+
 function move(){
     $("#maze div.boundary").addClass("youlose");
     $("#status").text("You lose!");
 
 
 };
+
 function normal(){
     $("div.boundary").removeClass("youlose");
     $("#status").text("Click The " +"'S'" +" to bigin");
 
 
-
-
 }
+
 function win(){
     const h =$("#maze div.boundary").css("background-color");
     $("#dummy").css("background-color","#ff8888");
@@ -41,4 +38,4 @@ function win(){
     
 
 
-}
+
